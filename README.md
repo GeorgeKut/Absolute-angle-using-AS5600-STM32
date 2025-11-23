@@ -15,8 +15,8 @@ This project uses Hardware Abstraction Layer (HAL) for STM32. You'll need STM32C
 
 3. Click Save and generate code.
 
- You can find your generated code under Core--> Src--> main.c
+You can find your generated code under Core--> Src--> main.c
 
 4. Compare main.c in repo with generated main.c and include missing part until while loop.
 
-Run the code in debug mode and add "angle" into the live expression. You can now find the angle getting updated as you mode the magnet attached your rotary shaft changes/moves.
+Run the code in debug mode and add "angle" into the live expression. You can now find the angle getting updated as the magnet attached your rotary shaft changes/moves.
