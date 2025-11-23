@@ -1,0 +1,7 @@
+../Core/Src/main.c:68:10:read_raw_angle	2
+../Core/Src/main.c:92:7:raw_to_degrees	1
+../Core/Src/main.c:104:5:main	1
+../Core/Src/main.c:155:6:SystemClock_Config	3
+../Core/Src/main.c:196:13:MX_I2C1_Init	4
+../Core/Src/main.c:244:13:MX_GPIO_Init	1
+../Core/Src/main.c:266:6:Error_Handler	1
