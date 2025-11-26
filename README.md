@@ -15,6 +15,7 @@ This project uses Hardware Abstraction Layer (HAL) for STM32. You'll need STM32C
 
 ![alt text](Create_project.png)
 
+<<<<<<< HEAD
 Goto the MCU selector and type in your STM32 chip name. You can refer datasheet for you Bluepill or Discovery or look into the specifications in the product page from which you have purchased the board.
 
 Give a project name. Keep all the remaining options the same. Make sure "Targeted Project Type" is "STM32Cube" and Finish the project creation.
@@ -27,6 +28,10 @@ There are 2 steps in configuring I2C.
 * Enable the I2C, for me - Goto Connectivity --> I2C1 --> Move from Disable to I2C  
 
 You have just configured the I2C. __We just configured these in the UI because the CubeIDE will generate most of the code for us. We only have add our logic or computation on what to do with read value from sensor or how often should the MCU read it or update it.__
+=======
+
+![alt text](ProjectName.png)
+>>>>>>> ea645939bafd2f64935c753a179dd038fc67caee
 
 
 ![alt text](I2c_config.png)
@@ -35,6 +40,10 @@ You have just configured the I2C. __We just configured these in the UI because t
 
 Click on save under File --> Save or click on the "hammer" icon to generate code. The are a whole bunch of files generated, but the only one we want to modify is main.c which will be popped up automatically. If not you can find your generated code under Core--> Src--> main.c
 
+<<<<<<< HEAD
 ##   Compare main.c in repo with generated and main.c include missing part until while loop.
+=======
+4. Compare main.c in repo with generated main.c and include missing part until while loop.
+>>>>>>> ea645939bafd2f64935c753a179dd038fc67caee
 
-Run the code in debug mode and add "angle" into the live expression. You can now find the angle getting updated as you mode the magnet attached your rotary shaft changes/moves.
+Run the code in debug mode and add "angle" into the live expression. You can now find the angle getting updated as the magnet attached your rotary shaft changes/moves.
